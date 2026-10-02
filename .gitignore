@@ -1,0 +1,44 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+.vite/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Java build output
+java-tests/target/
+java-tests/bin/
+*.class
+*.jar
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# Coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+*.swp

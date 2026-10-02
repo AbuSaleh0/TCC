@@ -1,0 +1,14 @@
+{
+  "name": "tcc-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Transport Company Computerisation (TCC) System",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --experimental-sqlite src/server.js",
+    "seed": "node --experimental-sqlite src/db/seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
